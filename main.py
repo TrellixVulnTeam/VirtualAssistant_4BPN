@@ -52,6 +52,8 @@ def run_joy():
         talk('I am in another relationship')
     elif 'made you' in command:
         talk('I made by developer Dhanonjoy Howlader')
+    elif 'how are you' in command:
+        talk('I am Fine! How can I help you')
     else:
         talk("I am going to search for you")
         pywhatkit.search(command)
